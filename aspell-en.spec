@@ -2,7 +2,7 @@ Summary:	English dictionary for aspell
 Summary(pl):	Angielski s³ownik dla aspella
 Name:		aspell-en
 Version:	0.51
-%define	subv	0
+%define	subv	1
 Release:	2
 Epoch:		2
 License:	Custom
