@@ -1,5 +1,5 @@
 Summary:	English dictionary for aspell
-Summary(pl):	Angielski s這wnik dla aspella
+Summary(pl):	S這wnik angielski dla aspella
 Name:		aspell-en
 Version:	0.51
 %define	subv	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 English dictionary (i.e. word list) for aspell.
 
 %description -l pl
-Angielski s這wnik (lista s堯w) dla aspella.
+S這wnik (lista s堯w) angielski dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
