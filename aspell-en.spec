@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 English dictionary (i.e. word list) for aspell.
 
 %description -l pl
-English s³ownik (lista s³ów) dla aspella.
+Angielski s³ownik (lista s³ów) dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
