@@ -7,7 +7,7 @@ Release:	1
 Epoch:		2
 License:	Custom
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/%{name}-%{version}-%{subv}.tar.bz2
+Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/en/%{name}-%{version}-%{subv}.tar.bz2
 URL:		http://wordlist.sourceforge.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= 0.50.0
