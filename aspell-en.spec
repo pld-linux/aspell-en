@@ -4,7 +4,7 @@ Name:		aspell-en
 Version:	0.50
 %define	subv	2
 Release:	1
-Epoch:		1
+Epoch:		2
 License:	Custom
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/%{name}-%{version}-%{subv}.tar.bz2
