@@ -8,6 +8,7 @@ Epoch:		2
 License:	Custom
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/en/%{name}-%{version}-%{subv}.tar.bz2
+# Source0-md5:	8f1eab27d02e44b15c833d5a7b24f9cd
 URL:		http://wordlist.sourceforge.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= 0.50.0
