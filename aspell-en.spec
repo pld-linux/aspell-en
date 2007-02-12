@@ -1,5 +1,5 @@
 Summary:	English dictionary for aspell
-Summary(pl.UTF-8):   Angielski słownik dla aspella
+Summary(pl.UTF-8):	Angielski słownik dla aspella
 Name:		aspell-en
 Version:	6.0
 %define	subv	0
