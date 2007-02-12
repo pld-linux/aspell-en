@@ -1,5 +1,5 @@
 Summary:	English dictionary for aspell
-Summary(pl):	Angielski s≥ownik dla aspella
+Summary(pl.UTF-8):   Angielski s≈Çownik dla aspella
 Name:		aspell-en
 Version:	6.0
 %define	subv	0
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 English dictionary (i.e. word list) for aspell.
 
-%description -l pl
-Angielski s≥ownik (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+Angielski s≈Çownik (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n aspell6-en-%{version}-%{subv}
