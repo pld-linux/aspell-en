@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Angielski słownik dla aspella
 Name:		aspell-en
 Version:	6.0
 %define	subv	0
-Release:	1
+Release:	2
 Epoch:		2
 License:	Custom
 Group:		Applications/Text
