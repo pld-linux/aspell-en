@@ -1,14 +1,14 @@
 Summary:	English dictionary for aspell
 Summary(pl.UTF-8):	Angielski słownik dla aspella
 Name:		aspell-en
-Version:	7.0
+Version:	7.1
 %define	subv	0
 Release:	1
 Epoch:		2
 License:	Custom
 Group:		Applications/Text
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/en/aspell6-en-%{version}-%{subv}.tar.bz2
-# Source0-md5:	e9cd14c33d1c7d33887b6759795fadba
+# Source0-md5:	beba5e8f3afd3ed1644653bb685b2dfb
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.60
 Requires:	aspell >= 3:0.60
