@@ -11,6 +11,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/en/aspell6-en-%{version}-%{subv}.tar
 # Source0-md5:	beba5e8f3afd3ed1644653bb685b2dfb
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.60
+BuildRequires:	which
 Requires:	aspell >= 3:0.60
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
