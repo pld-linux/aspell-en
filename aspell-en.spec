@@ -13,6 +13,7 @@ URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.60
 BuildRequires:	which
 Requires:	aspell >= 3:0.60
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -42,11 +43,11 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Copyright README doc/{ChangeLog,SCOWL-README,extra.txt}
-%{_libdir}/aspell/american*.alias
-%{_libdir}/aspell/australian*.alias
-%{_libdir}/aspell/british*.alias
-%{_libdir}/aspell/canadian*.alias
-%{_libdir}/aspell/english*.alias
-%{_libdir}/aspell/en*.multi
-%{_libdir}/aspell/en*.rws
+%{_prefix}/lib/aspell/american*.alias
+%{_prefix}/lib/aspell/australian*.alias
+%{_prefix}/lib/aspell/british*.alias
+%{_prefix}/lib/aspell/canadian*.alias
+%{_prefix}/lib/aspell/english*.alias
+%{_prefix}/lib/aspell/en*.multi
+%{_prefix}/lib/aspell/en*.rws
 %{_datadir}/aspell/en*.dat
