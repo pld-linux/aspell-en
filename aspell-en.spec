@@ -42,7 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Copyright README doc/{ChangeLog,SCOWL-README,extra.txt}
+%doc Copyright README doc/{ChangeLog.old,extra.txt}
 %{_prefix}/lib/aspell/american*.alias
 %{_prefix}/lib/aspell/australian*.alias
 %{_prefix}/lib/aspell/british*.alias
